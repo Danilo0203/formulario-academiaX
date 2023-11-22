@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario Reto</title>
+</head>
+
+<body>
+  <main>
+    <!-- Contenedor del formulario -->
+    <article>
+      <!-- Formulario -->
+      <form id="formulario_contenedor">
+        <!-- Encabezado del formulario -->
+        <section class="Formulario_encabezado">
+          <h1>Formulario X</h1>
+        </section>
+        <!-- Cuerpo del formulario -->
+        <section class="formulario_cuerpo">
+          <!-- Campo Nombre -->
+          <div class="formulario_seccion">
+            <label for="nombre">Nombres</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombres">
+            <p class="formulario_error ">Por favor ingrese un nombre valido</p>
+          </div>
+          <!-- Campo Apellidos -->
+          <div class="formulario_seccion">
+            <label for="apellido">Apelidos</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
+            <p class="formulario_error ">Por favor ingrese un apellido valido</p>
+          </div>
+          <!-- Campo Correo Electronico -->
+          <div class="formulario_seccion">
+            <label for="correo">Correo Electronico</label>
+            <input type="email" name="correo" id="correo" placeholder="Correo">
+            <p class="formulario_error ">Por favor ingrese un correo valido</p>
+          </div>
+          <!-- Campo Contraseña -->
+          <div class="formulario_seccion">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+            <p class="formulario_error_contraseña">Por favor ingrese una contraseña valida</p>
+          </div>
+          <!-- Campo confirmar contrasela -->
+          <div class="formulario_seccion">
+            <label for="contraseña_confirmar">Confirmar Contraseña</label>
+            <input type="password" name="contraseña_confirmar" id="contraseña_confirmar"
+              placeholder="Confirmar contraseña">
+            <p class="formulario_error ">La contraseña deben ser iguales</p>
+          </div>
+        </section>
+        <!-- Pie del formulario -->
+        <button class="formulario_enviar"><span>Registrarse</span></button>
+      </form>
+    </article>
+    <!-- Mensaje de registro -->
+    <aside class="mensaje_registro hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-check" width="140" height="140"
+        viewBox="0 0 24 24" stroke-width="1" stroke="white" fill="#00ff00" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+        <path d="M9 12l2 2l4 -4" />
+      </svg>
+      <h2>Resgistrado Correctamente</h2>
+    </aside>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
