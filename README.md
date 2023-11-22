@@ -21,13 +21,13 @@ Este proyecto consiste en un formulario de registro de usuarios implementado con
 
 ## Vista Previa del Proyecto
 
-![Vista Previa](assets/FormularioRegistro.jpg) <!-- Reemplaza 'url-de-la-imagen' con la URL de una captura de pantalla de tu proyecto -->
+![Vista Previa](./public/assets/FormularioRegistro.jpg) <!-- Reemplaza 'url-de-la-imagen' con la URL de una captura de pantalla de tu proyecto -->
 
 ## Cómo Usar
 
-1. Clona el repositorio: `git clone url-del-repositorio`
+1. Clona el repositorio: `git clone https://github.com/Danilo0203/formulario-academiaX.git`
 2. Navega al directorio del proyecto: `cd nombre-del-directorio`
-3. Instala las dependencias (si las hay): `npm install`
+3. Instala las dependencias: `npm install`
 4. Inicia el servidor de desarrollo: `npm run dev`
 5. Abre tu navegador y visita `http://localhost:3000`.
 
